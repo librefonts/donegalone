@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [DonegalOne-Regular.ttf.ttx, src/DonegalOne-Regular.otf.ttx, src/DonegalOne-Regular-TTF.sfd,
+  src/DonegalOne-Regular-OTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
